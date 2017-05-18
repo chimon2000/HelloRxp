@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "reactXPTest@git+https://github.com/react-native-training/reactxp-starter.git",
+        "scope": null,
+        "escapedName": "reactXPTest",
+        "name": "reactXPTest",
+        "rawSpec": "git+https://github.com/react-native-training/reactxp-starter.git",
+        "spec": "git+https://github.com/react-native-training/reactxp-starter.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:react-native-training/reactxp-starter.git",
+          "sshUrl": "git+ssh://git@github.com/react-native-training/reactxp-starter.git",
+          "httpsUrl": "git+https://github.com/react-native-training/reactxp-starter.git",
+          "gitUrl": "git://github.com/react-native-training/reactxp-starter.git",
+          "shortcut": "github:react-native-training/reactxp-starter",
+          "directUrl": "https://raw.githubusercontent.com/react-native-training/reactxp-starter/master/package.json"
+        }
+      },
+      "C:\\Users\\ryane\\AppData\\Roaming\\npm\\node_modules\\create-xp-app"
+    ]
+  ],
+  "_from": "git+https://github.com/react-native-training/reactxp-starter.git",
+  "_id": "rxapp@0.0.1",
+  "_inCache": true,
+  "_location": "/create-xp-app/rxapp",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "reactXPTest@git+https://github.com/react-native-training/reactxp-starter.git",
+    "scope": null,
+    "escapedName": "reactXPTest",
+    "name": "reactXPTest",
+    "rawSpec": "git+https://github.com/react-native-training/reactxp-starter.git",
+    "spec": "git+https://github.com/react-native-training/reactxp-starter.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:react-native-training/reactxp-starter.git",
+      "sshUrl": "git+ssh://git@github.com/react-native-training/reactxp-starter.git",
+      "httpsUrl": "git+https://github.com/react-native-training/reactxp-starter.git",
+      "gitUrl": "git://github.com/react-native-training/reactxp-starter.git",
+      "shortcut": "github:react-native-training/reactxp-starter",
+      "directUrl": "https://raw.githubusercontent.com/react-native-training/reactxp-starter/master/package.json"
+    }
+  },
+  "_requiredBy": [],
+  "_resolved": "git+https://github.com/react-native-training/reactxp-starter.git#55d5044c9e8fed35208cf6b7a8ecbfc31e3b73be",
+  "_shasum": "8f34ab23f3b3eb9c600345698bec78587db4eed4",
+  "_shrinkwrap": null,
+  "_spec": "reactXPTest@git+https://github.com/react-native-training/reactxp-starter.git",
+  "_where": "C:\\Users\\ryane\\AppData\\Roaming\\npm\\node_modules\\create-xp-app",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-addons-perf": "15.5.0-rc.2",
+    "react-addons-test-utils": "15.5.1",
+    "react-dom": "15.5.3",
+    "react-native": "^0.42.0",
+    "react-native-windows": "^0.33.0",
+    "reactxp": "^0.42.0-rc.9"
+  },
+  "description": "This app works on React Native (iOS, Android) and web. Most of the app's code is contained in `App.tsx`.",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "@types/webpack": "^2.2.14",
+    "awesome-typescript-loader": "3.1.2",
+    "source-map-loader": "^0.1.6",
+    "ts-node": "^3.0.2",
+    "tslint-react": "^3.0.0",
+    "typescript": "2.1.6",
+    "webpack": "2.2.1"
+  },
+  "gitHead": "55d5044c9e8fed35208cf6b7a8ecbfc31e3b73be",
+  "jest": {
+    "preset": "react-native"
+  },
+  "name": "rxapp",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# RXP\r\n\r\nThis app works on React Native (iOS, Android) and web. Most of the app's code is contained in `App.tsx`.\r\n\r\nThe commands in the instructions below assume you are in the root of this repo.\r\n\r\n### Initial Setup\r\n\r\n- Run `npm install`. This fetches the dependencies.\r\n- Open `node_modules/reactxp/dist/native-common/App.js` and replace \r\n`RN.AppRegistry.registerComponent('RXApp',`\r\nwith\r\n`RN.AppRegistry.registerComponent('reactXPTest',`\r\n\r\n### Building for Web\r\n\r\n- Run `npm run web-watch`. This compiles the TypeScript code and recompiles it whenever any files are changed.\r\n- Open `index.html` in your browser to view the result.\r\n\r\n### Building for React Native\r\n\r\n- Run `npm run rn-watch`. This compiles the TypeScript code and recompiles it whenever any files are changed.\r\n- In another command prompt run `npm start`. This starts the React Native Packager.\r\n- Use Xcode or Android Studio to build and deploy the native app code just like you would with any other React Native project.\r\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "rn-watch": "tsc --watch",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "web-watch": "webpack --progress --colors --watch"
+  },
+  "version": "0.0.1"
+}
